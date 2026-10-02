@@ -1,19 +1,31 @@
 {
-  "name": "اژدهای ساکت | مدیریت صدای کلاس",
-  "short_name": "اژدهای ساکت",
-  "description": "ابزار مدیریت سطح صدای کلاس برای متوسطه اول و دوم با بازخورد دیداری و شنیداری.",
+  "name": "اژدهای سکوت کلاس",
+  "short_name": "اژدهای سکوت",
+  "description": "ابزار تعاملی معلم برای مدیریت سطح صدای کلاس، با تایمر، صدای دلخواه و حالت خلوت.",
   "lang": "fa",
   "dir": "rtl",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "any",
-  "background_color": "#100e1a",
-  "theme_color": "#151225",
-  "categories": ["education", "utilities"],
+  "background_color": "#0e1324",
+  "theme_color": "#121a33",
+  "categories": [
+    "education",
+    "productivity"
+  ],
   "icons": [
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
